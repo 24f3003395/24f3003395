@@ -1,12 +1,12 @@
-<!-- Modern GitHub Profile README -->
+<!-- Premium GitHub README -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:020617,25:0f172a,50:1d4ed8,75:2563eb,100:38bdf8&text=Deepak%20Kumar&fontSize=52&fontColor=e2e8f0&animation=fadeIn&fontAlignY=38&desc=Data%20Science%20Student%20•%20Developer%20•%20Builder&descAlignY=58&descSize=18"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=280&color=0:020617,25:0f172a,50:1e3a8a,75:2563eb,100:38bdf8&text=Deepak%20Kumar&fontSize=55&fontColor=e2e8f0&animation=fadeIn&stroke=38bdf8&strokeWidth=2"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Data+Science+Student+%40+IIT+Madras;Full+Stack+Developer+in+Progress;Learning+AI+%26+Machine+Learning;Building+Projects+That+Actually+Matter;Future+Entrepreneur+%F0%9F%9A%80"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=23&pause=1000&duration=3000&color=38BDF8&center=true&vCenter=true&width=850&lines=Data+Science+Student+%40+IIT+Madras;Aspiring+Full+Stack+Developer;Learning+AI+%26+Machine+Learning;Building+Projects+and+Startup+Ideas;Future+Tech+Entrepreneur+%F0%9F%9A%80"/>
 
 <br/><br/>
 
@@ -32,24 +32,36 @@
 class DeepakKumar:
 
     def __init__(self):
-        self.location = "India"
+
         self.education = "BS in Data Science @ IIT Madras"
-        self.interests = [
+
+        self.current_focus = [
             "Full Stack Development",
             "Artificial Intelligence",
+            "Backend Development",
             "Machine Learning",
-            "Startups",
-            "Backend Systems"
+            "Problem Solving"
         ]
 
-    def currently_doing(self):
-        return [
-            "Building Projects",
-            "Learning Flask & APIs",
-            "Improving DSA",
-            "Exploring AI/ML",
-            "Working on Startup Ideas"
+        self.currently_learning = [
+            "Flask",
+            "APIs",
+            "SQLAlchemy",
+            "React",
+            "DSA"
         ]
 
-    def life_goal(self):
-        return "Build impactful products and become financially successful 🚀"
+        self.projects = [
+            "MAD1 Projects",
+            "Student Tools",
+            "Startup Ideas",
+            "AI Based Applications"
+        ]
+
+        self.goal = "Build impactful products and become financially successful 🚀"
+
+    def mindset(self):
+        return "Learn → Build → Improve → Repeat"
+
+    def fun_fact(self):
+        return "I enjoy debugging and building things from scratch ☕"
